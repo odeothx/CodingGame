@@ -32,7 +32,7 @@ int main()
 
 		// Write an action using cout. DON'T FORGET THE "<< endl"
 		// To debug: cerr << "Debug messages..." << endl;
-		if (spaceX == i)
+		if (spaceX == MaxIndex)
 			cout << "FIRE" << endl;
 		else
 			cout << "HOLD" << endl; // either:  FIRE (ship is firing its phase cannons) or HOLD (ship is not firing).
